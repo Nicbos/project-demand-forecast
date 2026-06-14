@@ -32,7 +32,7 @@ project3/
 ├── main.ipynb              # Основной ноутбук: EDA → признаки → обучение → анализ
 ├── model_analysis.py       # Per-model анализ: Gain, SHAP, Permutation, PDP, ALE, калибровка
 ├── requirements.txt        # Зависимости
-├── project3_plan.md        # План проекта / ТЗ
+├── DATA_DICTIONARY.md      # Словарь данных: описание всех CSV и их колонок
 ├── data/                   # Исходные данные (НЕ коммитятся)
 │   ├── sales.csv
 │   ├── online.csv
@@ -170,9 +170,6 @@ python model_analysis.py
 
 ---
 
-## Автор
-
-Проект выполнен в рамках соревнования по прогнозированию розничного спроса.
 
 ## Лицензия
 
