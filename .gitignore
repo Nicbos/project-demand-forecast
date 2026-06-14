@@ -1,0 +1,33 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+.cursor/
+
+# Kaggle
+.kaggle-outputs/
+.kaggle-run.log
+
+# Data (too large, use Kaggle)
+data/
+
+# Generated outputs
+reports/
+data/processed/
+catboost_info/
+
+# Large model binaries (1-4 GB each — use Kaggle to regenerate)
+test/*.cbm
+test/*.parquet
+
+# SHAP raw arrays (~50 MB total — regeneratable)
+test/analysis/shap_raw_*.npz
+
+# Notebook outputs/checkpoints
+.ipynb_checkpoints/
+kernel-metadata.json
